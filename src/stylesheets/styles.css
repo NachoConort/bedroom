@@ -143,13 +143,143 @@ body {
 }
 
 .bed {
+  background-color: black;
   width: 25%;
   height: 60%;
-  border-width: 0 0 1px 1px;
+  border-width: 1px 1px 1px 1px;
   border-style: solid;
   border-color: white;
   position: absolute;
-  right: 0;
+  right: 8%;
+  top: -8%;
+  z-index: 4;
+  border-radius: 3px;
+}
+
+.bed-right {
+  background-color: black;
+  position: absolute;
+  height: 60%;
+  width: 5%;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: white;
+  transform: skewY(45deg);
+  right: 4%;
+  top: -6.39%;
+  z-index: 3;
+  border-radius: 3px;
+}
+
+.front-bed {
+  background-color: black;
+  position: absolute;
+  width: 25%;
+  height: 5%;
+  border-width: 0 0 1px 1px;
+  border-style: solid;
+  border-color: white;
+  transform: skewX(45deg);
+  top: 51.2%;
+  right: 5.9%;
+  border-radius: 3px;
+  z-index: 3;
+}
+
+.bed-leg-1 {
+  position: absolute;
+  background-color: black;
+  width: 4%;
+  height: 3%;
+  border: 1px solid white;
+  transform: skewY(45deg);
+  border-radius: 45%;
+  z-index: 2;
+  right: 1%;
+  top: -2%;
+}
+
+.bed-leg-2 {
+  position: absolute;
+  background-color: black;
+  width: 4%;
+  height: 3%;
+  border: 1px solid white;
+  transform: skewY(45deg);
+  border-radius: 45%;
+  z-index: 2;
+  right: 1.5%;
+  top: 54%;
+}
+
+.bed-leg-3 {
+  position: absolute;
+  background-color: black;
+  width: 4%;
+  height: 3%;
+  border: 1px solid white;
+  transform: skewY(45deg);
+  border-radius: 45%;
+  z-index: 2;
+  right: 24%;
+  top: 55%;
+}
+
+.pillow {
+  position: absolute;
+  background-color: black;
+  height: 8%;
+  width: 16%;
+  border: 1px solid white;
+  right: 13%;
+  top: -4%;
+  z-index: 5;
+  border-radius: 5px;
+}
+
+.bed-sheet-1 {
+  width: 25%;
+  position: absolute;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: white;
+  right: 8%;
+  z-index: 4;
+}
+
+.bed-sheet-2 {
+  width: 25%;
+  position: absolute;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: white;
+  right: 8%;
+  top: 5%;
+  z-index: 4;
+}
+
+.right-bed-sheet-1 {
+  position: absolute;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: white;
+  width: 4.5%;
+  transform: skewY(45deg);
+  right: 4%;
+  z-index: 4;
+  top: 1.8%;
+}
+
+.right-bed-sheet-2 {
+  position: absolute;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: white;
+  width: 4.5%;
+  transform: skewY(45deg);
+  right: 4%;
+  z-index: 4;
+  top: 7.2%;
 }
 
 .left-wall {
