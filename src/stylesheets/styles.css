@@ -35,7 +35,7 @@ body {
   z-index: 3;
 }
 
-.right-desk {
+.left-desk {
   background-color: black;
   position: absolute;
   height: 3%;
@@ -50,6 +50,7 @@ body {
 }
 
 .front-desk {
+  background-color: black;
   position: absolute;
   height: 50%;
   width: 3%;
@@ -73,6 +74,72 @@ body {
   transform: skewY(45deg);
   bottom: 80.5%;
   left: 13%;
+}
+
+.back-desk-leg-1 {
+  position: absolute;
+  width: 2%;
+  height: 7%;
+  border-width: 0 0 1px 1px;
+  border-style: solid;
+  border-color: white;
+  transform: skewX(45deg);
+  z-index: 2;
+  bottom: 76.5%;
+  left: 15%;
+}
+
+.desk-leg-2 {
+  background-color: black;
+  position: absolute;
+  height: 2.5%;
+  width: 8%;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: white;
+  transform: skewY(45deg);
+  bottom: 36%;
+  left: 10%;
+}
+
+.back-desk-leg-2 {
+  position: absolute;
+  width: 2%;
+  height: 7%;
+  border-width: 0 0 1px 1px;
+  border-style: solid;
+  border-color: white;
+  transform: skewX(45deg);
+  z-index: 2;
+  bottom: 32%;
+  left: 12%;
+}
+
+.desk-leg-3 {
+  background-color: black;
+  position: absolute;
+  height: 2.5%;
+  width: 8%;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: white;
+  transform: skewY(45deg);
+  bottom: 33.4%;
+  left: -5.5%;
+}
+
+.back-desk-leg-3 {
+  background-color: black;
+  position: absolute;
+  width: 2%;
+  height: 7%;
+  border-width: 0 0 1px 1px;
+  border-style: solid;
+  border-color: white;
+  transform: skewX(45deg);
+  z-index: 3;
+  bottom: 29.6%;
+  left: -3.8%;
 }
 
 .bed {
