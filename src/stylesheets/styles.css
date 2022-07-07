@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bedroom {
+  position: relative;
+}
+
+.floor {
+  border: 1px solid white;
+  width: 198px;
+  height: 198px;
+  transform: rotate(45deg);
+  position: relative;
+  z-index: 2;
+}
+
+.desk {
+  background-color: black;
+  height: 50%;
+  width: 20%;
+  border: 1px solid white;
+  position: absolute;
+  left: -10%;
+  bottom: 40%;
+  z-index: 3;
+}
+
+.right-desk {
+  background-color: black;
+  position: absolute;
+  height: 3%;
+  width: 21%;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: white;
+  transform: skewX(45deg);
+  bottom: 37%;
+  left: -8.6%;
+  z-index: 3;
+}
+
+.front-desk {
+  position: absolute;
+  height: 50%;
+  width: 3%;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  border-color: white;
+  bottom: 38.5%;
+  left: 10%;
+  transform: skewY(45deg);
+  z-index: 3;
+}
+
+.desk-leg-1 {
+  background-color: black;
+  position: absolute;
+  height: 2.5%;
+  width: 8%;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: white;
+  transform: skewY(45deg);
+  bottom: 80.5%;
+  left: 13%;
+}
+
+.bed {
+  width: 25%;
+  height: 60%;
+  border-width: 0 0 1px 1px;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  right: 0;
+}
+
+.left-wall {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white transparent transparent white;
+  height: 139px;
+  width: 139px;
+  transform: skewY(-45deg);
+  position: absolute;
+  left: -20.47%;
+  top: -55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bookend {
+  border: 1px solid white;
+  width: 15%;
+  height: 3%;
+}
+
+.right-wall {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white white transparent transparent;
+  height: 140px;
+  width: 140px;
+  transform: skewY(45deg);
+  position: absolute;
+  right: -20.46%;
+  top: -55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.window-frame {
+  border: 1px solid white;
+  height: 5%;
+  width: 60%;
+}
+
+.window-glass {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: white;
+  height: 40%;
+  width: 50%;
+}
