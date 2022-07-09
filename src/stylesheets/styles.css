@@ -282,6 +282,43 @@ body {
   top: 7.2%;
 }
 
+.bedside-table {
+  background-color: black;
+  position: absolute;
+  height: 6%;
+  width: 10%;
+  border: 1px solid white;
+  transform: skewX(45deg);
+  right: 45%;
+  top: 1.9%;
+  z-index: 3;
+}
+
+.bedside-table-right {
+  background-color: black;
+  position: absolute;
+  height: 8%;
+  width: 6%;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: white;
+  transform: skewY(45deg);
+  right: 42%;
+  top: -3.2%;
+}
+
+.bedside-table-top {
+  position: absolute;
+  background-color: black;
+  width: 10%;
+  height: 8%;
+  border-width: 1px 0 0 1px;
+  border-style: solid;
+  border-color: white;
+  right: 47.8%;
+  top: -5.9%;
+}
+
 .left-wall {
   border-width: 1px;
   border-style: solid;
